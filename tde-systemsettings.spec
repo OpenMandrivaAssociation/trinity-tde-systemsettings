@@ -64,6 +64,9 @@ BuildRequires:	trinity-tde-cmake >= %{tde_version}
 BuildRequires:	pkgconfig
 BuildRequires:	fdupes
 
+BuildRequires:  pkgconfig(x11)
+BuildRequires:  pkgconfig(xrender)
+
 Requires:		trinity-guidance
 
 
